@@ -86,15 +86,15 @@ nav {
 /* MEDIA QUERY IPAD */
 @media screen and (min-width: 540px) and (max-width: 1024px) {
     .logo {
-        width: 15%;
+        width: 20%;
     }
 
     .menu {
-        width: 80%;
+        width: 75%;
     }
 
     .menu-text {
-        font-size: 3vw;
+        font-size: 3.8vw;
     }
 
     nav {
