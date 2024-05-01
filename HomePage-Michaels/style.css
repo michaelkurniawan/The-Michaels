@@ -1,22 +1,43 @@
+@font-face {
+    font-family: Katibeh;
+    src: url(../Sources-Fonts/Katibeh/Katibeh-Regular.ttf);
+}
+
+@font-face {
+    font-family: Rakkas;
+    src: url(../Sources-Fonts/Rakkas/Rakkas-Regular.ttf);
+}
+
+/* body::-webkit-scrollbar {
+    display: none;
+} */
+
+* {
+    /* box-sizing: border-box;  */
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    background-color: #171C2F;
 }
 
+/* NAVBAR */
 nav {
     background-color: rgba(0, 0, 0, .15);
     display: flex;
     flex-direction: row;
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .logo {
     width: 8%;
     display: flex;
     justify-content: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .logo img {
@@ -26,7 +47,7 @@ nav {
 .menu {
     display: flex;
     flex-direction: row;
-    border: 1px solid blueviolet;
+    /* border: 1px solid blueviolet; */
     width: 90%;
     justify-content: space-between;
 }
@@ -42,13 +63,26 @@ nav {
 .menu-kiri ul, .menu-kanan ul{
     display: flex;
     flex-direction: row;
-    gap: 2vw;
+    gap: 4vw;
     list-style: none;
     align-items: center;
 }
 
 .menu-text {
+    color: white;
+    font-family: Katibeh, serif;
     text-decoration: none;
-    font-size: 120%;
+    font-size: 2vw;
 }
 
+.menu-text:hover {
+    color: #A48D10;
+    transition: 0.3s ease;
+}
+
+/* MEDIA QUERY IPAD VERTICAL */
+@media screen and (min-width: 540px) and (max-width: 1024px){
+    
+}
+
+/* HOMEPAGE */
