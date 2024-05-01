@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, .15);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.logo {
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid blueviolet;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.menu-kiri{
+    display: flex;
+}
+
+.menu-kanan{
+    display: flex;
+}
+
+.menu-kiri ul, .menu-kanan ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    list-style: none;
+    align-items: center;
+}
+
+.menu-text {
+    text-decoration: none;
+    font-size: 120%;
+}
+
