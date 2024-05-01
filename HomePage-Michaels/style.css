@@ -1,15 +1,36 @@
+@font-face {
+    font-family: Katibeh;
+    src: url(../Sources-Fonts/Katibeh/Katibeh-Regular.ttf);
+}
+
+@font-face {
+    font-family: Rakkas;
+    src: url(../Sources-Fonts/Rakkas/Rakkas-Regular.ttf);
+}
+
+/* body::-webkit-scrollbar {
+    display: none;
+} */
+
+* {
+    box-sizing: border-box; 
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    background-color: #171C2F;
 }
 
+/* NAVBAR */
 nav {
     background-color: rgba(0, 0, 0, .15);
     display: flex;
     flex-direction: row;
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid cyan;
 }
 
 .logo {
@@ -19,36 +40,88 @@ nav {
     border: 1px solid red;
 }
 
-.logo img {
+.logo a img {
+    height: 100%;
     width: 100%;
+    border: 1px solid white;
 }
 
 .menu {
     display: flex;
     flex-direction: row;
-    border: 1px solid blueviolet;
+    border: 1px solid yellow;
     width: 90%;
     justify-content: space-between;
 }
 
-.menu-kiri{
+.menu-kiri,.menu-kanan {
     display: flex;
 }
 
-.menu-kanan{
-    display: flex;
-}
-
-.menu-kiri ul, .menu-kanan ul{
+.menu-kiri ul, .menu-kanan ul {
     display: flex;
     flex-direction: row;
-    gap: 2vw;
+    gap: 4vw;
     list-style: none;
     align-items: center;
 }
 
 .menu-text {
+    color: white;
+    font-family: Katibeh, serif;
     text-decoration: none;
-    font-size: 120%;
+    font-size: 2vw;
 }
 
+.menu-text:hover {
+    color: #A48D10;
+    transition: 0.3s ease;
+}
+
+.hamburger {
+    display: none;
+    font-size: 4vw;
+}
+
+/* MEDIA QUERY IPAD */
+@media screen and (min-width: 540px) and (max-width: 1024px) {
+    .logo {
+        width: 15%;
+    }
+
+    .menu {
+        width: 80%;
+    }
+
+    .menu-text {
+        font-size: 3vw;
+    }
+
+    nav {
+        height: 15%;
+    }
+}
+
+/* MEDIA QUERY HP */
+@media screen and (max-width: 539px){
+    .logo {
+        width: 25%;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    nav {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hamburger {
+        display: flex;
+        margin-right: 5%;
+        color: white;
+    }
+}
+
+/* HOMEPAGE */
