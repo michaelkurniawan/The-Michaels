@@ -8,9 +8,9 @@
     src: url(../Sources-Fonts/Rakkas/Rakkas-Regular.ttf);
 }
 
-/* body::-webkit-scrollbar {
+body::-webkit-scrollbar {
     display: none;
-} */
+}
 
 * {
     box-sizing: border-box; 
@@ -20,17 +20,20 @@
 body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
+    height: 200vh;
     background-color: #171C2F;
 }
 
 /* NAVBAR */
 nav {
-    background-color: rgba(0, 0, 0, .15);
+    background-color: rgba(0, 0, 0, .2);
     display: flex;
     flex-direction: row;
     width: 100%;
     border: 1px solid cyan;
+    z-index: 999;
+    position: absolute;
 }
 
 .logo {
@@ -83,6 +86,29 @@ nav {
     font-size: 4vw;
 }
 
+/* HOMEPAGE */
+.section-1 {
+    background-image: url("./Sources-HomePage/BG-HomePage-Desktop.png");
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-size: cover;
+    border: 2px solid orange;
+    height: 100vh;
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-container {
+    border: 1px solid hotpink;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
 /* MEDIA QUERY IPAD */
 @media screen and (min-width: 540px) and (max-width: 1024px) {
     .logo {
@@ -90,15 +116,11 @@ nav {
     }
 
     .menu {
-        width: 75%;
+        width: 78%;
     }
-
+    
     .menu-text {
         font-size: 3.8vw;
-    }
-
-    nav {
-        height: 15%;
     }
 }
 
@@ -107,21 +129,26 @@ nav {
     .logo {
         width: 25%;
     }
-
+    
     .menu {
         display: none;
     }
-
+    
     nav {
         justify-content: space-between;
         align-items: center;
     }
-
+    
     .hamburger {
+        border: 1px solid greenyellow;
         display: flex;
         margin-right: 5%;
         color: white;
+        /* border-radius: 8px; */
+    }
+
+    .garis-tiga {
+        font-size: 8vw;
+        border-radius: 8px;
     }
 }
-
-/* HOMEPAGE */
