@@ -27,13 +27,16 @@ body {
 
 /* NAVBAR */
 
+header {
+    z-index: 999;
+}
+
 nav {
     background-color: rgba(0, 0, 0, .2);
     display: flex;
     flex-direction: row;
     width: 100%;
     border: 1px solid cyan;
-    z-index: 999;
     /* position: absolute; */
 }
 
@@ -126,12 +129,15 @@ nav {
     /* margin-top: ; */
 }
 
+
+
 /* MEDIA QUERY IPAD */
 @media screen and (min-width: 540px) and (max-width: 1024px) {
+    /* NAVBAR */
     .logo {
         width: 20%;
     }
-
+    
     .menu {
         width: 78%;
     }
@@ -139,10 +145,13 @@ nav {
     .menu-text {
         font-size: 3.8vw;
     }
+
+    /* HOMEPAGE */
 }
 
 /* MEDIA QUERY HP */
 @media screen and (max-width: 539px){
+    /* NAVBAR */
     .logo {
         width: 25%;
     }
@@ -161,8 +170,10 @@ nav {
         display: block;
         /* border-radius: 8px; */
     }
-
+    
     .dropdown.open {
         display: flex;
     }
+    
+    /* HOMEPAGE */
 }
