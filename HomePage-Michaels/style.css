@@ -8,9 +8,9 @@
     src: url(../Sources-Fonts/Rakkas/Rakkas-Regular.ttf);
 }
 
-/* body::-webkit-scrollbar {
+body::-webkit-scrollbar {
     display: none;
-} */
+}
 
 * {
     box-sizing: border-box; 
@@ -20,17 +20,24 @@
 body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
+    height: 200vh;
     background-color: #171C2F;
 }
 
 /* NAVBAR */
+
+header {
+    z-index: 999;
+}
+
 nav {
-    background-color: rgba(0, 0, 0, .15);
+    background-color: rgba(0, 0, 0, .2);
     display: flex;
     flex-direction: row;
     width: 100%;
     border: 1px solid cyan;
+    /* position: absolute; */
 }
 
 .logo {
@@ -54,7 +61,7 @@ nav {
     justify-content: space-between;
 }
 
-.menu-kiri,.menu-kanan {
+.menu-kiri, .menu-kanan {
     display: flex;
 }
 
@@ -80,48 +87,93 @@ nav {
 
 .hamburger {
     display: none;
-    font-size: 4vw;
+    font-size: 8vw;
+    cursor: pointer;
+    margin-right: 5%;
+    color: white;
 }
+
+.dropdown {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    top: 100%;
+    background: rgba(0, 0, 0, .2);
+    border: 2px solid goldenrod;
+    width: 100%;
+    list-style: none;
+    gap: 5vw;
+}
+
+.menu-dropdown {
+    font-size: 7vw;
+    color: white;
+    font-family: Katibeh, serif;
+    text-decoration: none;
+    border: 1px solid orange;
+}
+
+/* HOMEPAGE */
+.section-1 {
+    background-image: url("./Sources-HomePage/BG-HomePage-Desktop.png");
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-size: cover;
+    border: 2px solid orange;
+    height: 100vh;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* margin-top: ; */
+}
+
+
 
 /* MEDIA QUERY IPAD */
 @media screen and (min-width: 540px) and (max-width: 1024px) {
+    /* NAVBAR */
     .logo {
-        width: 15%;
+        width: 20%;
     }
-
+    
     .menu {
-        width: 80%;
+        width: 78%;
     }
-
+    
     .menu-text {
-        font-size: 3vw;
+        font-size: 3.8vw;
     }
 
-    nav {
-        height: 15%;
-    }
+    /* HOMEPAGE */
 }
 
 /* MEDIA QUERY HP */
 @media screen and (max-width: 539px){
+    /* NAVBAR */
     .logo {
         width: 25%;
     }
-
+    
     .menu {
         display: none;
     }
-
+    
     nav {
         justify-content: space-between;
         align-items: center;
     }
-
+    
     .hamburger {
-        display: flex;
-        margin-right: 5%;
-        color: white;
+        border: 1px solid greenyellow;
+        display: block;
+        /* border-radius: 8px; */
     }
+    
+    .dropdown.open {
+        display: flex;
+    }
+    
+    /* HOMEPAGE */
 }
-
-/* HOMEPAGE */

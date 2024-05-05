@@ -1,11 +1,12 @@
+let dropdown = document.getElementById("drop");
+let hamburger = document.getElementById("icon-hamburger");
 
-function openHamburger() {
-    var sidebar = document.querySelector('.sidebar');
-    sidebar.style.visibility = 'visible';
+function toggleHamburger(){
+    dropdown.classList.toggle("open");
 }
 
-function hideHamburger(){
-    const sidebar = document.querySelector('.sidebar');
-    sidebar.style.display = 'none';
-}
-
+document.addEventListener("mousedown", (event) => {
+    if(!dropdown.contains(event.target) && !hamburger.contains(event.target)){
+        dropdown.classList.remove("open");
+    }
+})
