@@ -119,8 +119,8 @@ nav {
     /* background-attachment: fixed; */
     background-position: center;
     background-size: cover;
-    border: 1px solid green;
-    height: 100vh;
+    border: 4px solid green;
+    height: auto;
     display: flex;
     flex-direction: column;
     /* justify-content: space-evenly; */
@@ -132,9 +132,10 @@ nav {
 
 .content {
     border: 3px solid red;
-    height: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
+    flex-direction: row;
 }
 
 .sec-1-kiri {
@@ -142,31 +143,36 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
-.sec-1-kiri h1 {
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    background-image: linear-gradient(#ffffff 1%, #786606 105%);
-    /* stroke: 1px solid black; */
-    /* text-shadow: 2px 2px 0 black; */
+.title{
     font-family: Katibeh, serif;
     font-size: 10vw;
+    color: rgb(196, 183, 112);
+    text-shadow: 0px 5px 10px black;
     margin: 0;
-    /* -webkit-text-stroke: 0.05px black; */
-    /* -webkit-text-stroke-width:1px; */
-    /* -webkit-text-stroke-color: black; */
-    /* -webkit-text-fill-color: white; */
-    /* -webkit-text-stroke: 0.0001px black; */
-    /* text-shadow: 0px 4px 4px black; */
+    text-align: center;
+    line-height: 0.8;
+}
+
+.under-title{
+    font-family: Rakkas, serif;
+    font-size: 1.5vw;
+    color: #FFFFFF;
+    letter-spacing: 0.1vw;
+    width: 55%;
+    line-height: 1.5;
+    text-shadow: 0px 4px 8px black;
+    margin-top: 3%;
+    text-align: center;
 }
 
 .sec-1-kanan {
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    width: 30%;
+    width: 45%;
     /* height: auto; */
     /* min-height: 100%; */
     /* height: 100%; */
@@ -176,7 +182,9 @@ nav {
 
 .sec-1-kanan img {
     border: 1px solid orange;
-    
+    display: flex;
+    /* width: 100%; */
+    /* height: 100%; */
     max-width: 100%;
     max-height: 100%;
 }
@@ -260,6 +268,27 @@ footer{
     /* HOMEPAGE */
     .section-1 {
         background-image: url("./Sources-HomePage/BG-HomePage-iPad.png");
+        /* flex-direction: row; */
+    }
+
+    .content{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .title{
+        font-size: 15vw;
+    }
+
+    .under-title{
+        font-size: 2.5vw;
+        width: 90%
+    }
+
+    .sec-1-kanan{
+        width: 100%;
+        height: 60%;
+        justify-content: center;
     }
 
     /* FOOTER */
@@ -311,7 +340,28 @@ footer{
         background-image: url(./Sources-HomePage/BG-HomePage-iPhone.png);
     }
 
-     /* FOOTER */
+    .content{
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .title{
+        font-size: 18vw;
+    }
+
+    .under-title{
+        font-size: 2.6vw;
+        width: 65%
+    }
+
+    .sec-1-kanan{
+        width: 100%;
+        height: 50%;
+        justify-content: center;
+    }
+
+    /* FOOTER */
      .footer-logo{
         width: 30%;
     }

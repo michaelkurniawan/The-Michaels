@@ -112,6 +112,46 @@ nav {
     /* border: 1px solid orange; */
 }
 
+/* CHARACTERS */
+.section-1{
+    background-image: url("./Sources-CharacterPage/BG-CharacterPage-Desktop.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid lightblue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid rgb(216, 112, 147);
+    height: 100vh;
+}
+
+.title{
+    font-family: Katibeh, serif;
+    font-size: 10vw;
+    color: rgb(196, 183, 112);
+    text-shadow: 10px 5px 15px black;
+    margin: 0;
+}
+
+.under-title{
+    font-family: Rakkas, serif;
+    font-size: 1.5vw;
+    color: #FFFFFF;
+    letter-spacing: 0.1vw;
+    width: 55%;
+    line-height: 1.5;
+    text-shadow: 0px 4px 8px black;
+}
+
 /* FOOTER */
 footer{
     background-color:#171C2F;
@@ -189,8 +229,19 @@ footer{
         font-size: 3.8vw;
     }
 
-    /* HOMEPAGE */
-    
+    /* CHARACTERS */
+    .section-1{
+        background-image: url("./Sources-CharacterPage/BG-CharacterPage-iPad.png");
+    }
+
+    .title{
+        font-size: 15vw;
+    }
+
+    .under-title{
+        font-size: 2.5vw;
+        width: 80%;
+    }
 
     /* FOOTER */
     .footer-logo{
@@ -236,9 +287,21 @@ footer{
         display: flex;
     }
     
-    /* HOMEPAGE */
+    /* CHARACTERS */
+    .section-1{
+        background-image: url("./Sources-CharacterPage/BG-CharacterPage-iPhone.png");
+    }
 
-     /* FOOTER */
+    .title{
+        font-size: 18vw;
+    }
+
+    .under-title{
+        font-size: 2.6vw;
+        width: 90%;
+    }
+
+    /* FOOTER */
      .footer-logo{
         width: 30%;
     }
