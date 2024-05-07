@@ -115,7 +115,7 @@ nav {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     box-shadow: 0px -50px 50px #1D3421 inset;
@@ -249,33 +249,47 @@ nav {
 .class-content-right{
     display: flex;
     align-items: center;
+    flex-direction: row;
 }
 
 .class-banner{
     display: flex;
     justify-content: center;
-    margin: 0% 0% 0% 5%;
+    margin: 5%;
+    width: 40%;
+    /* margin: 0% 0% 0% 5%; */
+    /* top right bot left */
 }
 
-.class-desc{
+.class-banner img{
+    width: 100%;
+}
+
+.class-desc-left{
     display: flex;
     justify-content: center;
     width: 50%;
-    margin: 5%;
-    margin-left: 0;
+    margin: 0% 10% 0% 0%;
 }
 
-.class-desc p{
+.class-desc-right{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0% 0% 0% 10%;
+}
+
+.class-desc-left p, .class-desc-right p{
     font-family: Rakkas, serif;
     font-size: 1.5vw;
     text-align: justify;
     letter-spacing: 0.1vw;
     line-height: 1.5;
     color: #FFFFFF;
-    width: 70%;
+    width: 80%;
     background-color: rgba(0, 0, 0, 30%);
-    border-radius: 22px;
-    padding: 3%;
+    border-radius: 25px;
+    padding: 5%;
 }
 
 .end-of-page{
@@ -419,14 +433,15 @@ footer{
     }
 
     .class-banner{
-        width: 50%;
+        width: 70%;
+        margin: 0;
     }
 
     .class-banner img{
         width: 100%;
     }
 
-    .class-desc p{
+    .class-desc-left p, .class-desc-right p{
         font-size: 2.5vw;
         width: 90%;
     }
@@ -553,12 +568,13 @@ footer{
         width: 70%;
     }
 
-    .class-desc{
+    .class-desc-left, .class-desc-right{
         width: 55%;
         margin: 0;
+        margin-bottom: 10%;
     }
 
-    .class-desc p{
+    .class-desc-left p, .class-content-right p{
         font-size: 2.4vw;
         width: 90%;     
     }
