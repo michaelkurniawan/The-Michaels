@@ -155,6 +155,29 @@ nav {
     text-shadow: 0px 4px 8px black;
 }
 
+.end-of-page{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #171C2F;
+    border-bottom: 1px solid #FFFFFF;
+    margin: 2% 0% 0% 0%;
+    box-shadow: 0px 50px 50px #171C2F inset;
+}
+
+.top-text{
+    font-family: Katibeh, serif;
+    text-decoration: none;
+    color:rgb(222, 233, 207);
+    font-size: 3vw;
+    text-align: center;
+}
+
+.top-text p{
+    margin-top: 0;
+    padding-top: 0;
+}
+
 /* FOOTER */
 footer{
     background-color:#171C2F;
@@ -244,6 +267,14 @@ footer{
         width: 80%;
     }
 
+    .end-of-page img{
+        width: 70%;
+    }
+
+    .top-text{
+        font-size: 5vw;
+    }
+
     /* FOOTER */
     .footer-logo{
         width: 25%;
@@ -305,6 +336,14 @@ footer{
     .under-title{
         font-size: 2.6vw;
         width: 90%;
+    }
+
+    .end-of-page img{
+        width: 70%;
+    }
+
+    .top-text{
+        font-size: 5vw;
     }
 
     /* FOOTER */
