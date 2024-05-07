@@ -20,8 +20,6 @@ body::-webkit-scrollbar {
 body {
     margin: 0;
     padding: 0;
-    /* overflow: hidden; */
-    /* height: 200vh; */
     background-color: #171C2F;
 }
 
@@ -35,8 +33,7 @@ nav {
     display: flex;
     flex-direction: row;
     width: 100%;
-    border: 1px solid pink;
-    /* position: absolute; */
+    /* border: 1px solid pink; */
 }
 
 .logo {
@@ -54,10 +51,10 @@ nav {
 
 .menu {
     display: flex;
-    flex-direction: row;
-    /* border: 1px solid yellow; */
-    width: 90%;
     justify-content: space-between;
+    flex-direction: row;
+    width: 90%;
+    /* border: 1px solid yellow; */
 }
 
 .menu-kiri, .menu-kanan {
@@ -96,12 +93,12 @@ nav {
     display: none;
     flex-direction: column;
     align-items: center;
-    top: 100%;
-    background: rgba(0, 0, 0, .2);
-    border: 1px solid goldenrod;
+    background-color: #171C2F;
     width: 100%;
     list-style: none;
     gap: 5vw;
+    padding: 5%;
+    /* border: 1px solid goldenrod; */
 }
 
 .menu-dropdown {
@@ -112,30 +109,29 @@ nav {
     /* border: 1px solid orange; */
 }
 
+.menu-dropdown:hover {
+    color: #A48D10;
+    transition: 0.3s ease
+}
+
 /* HOMEPAGE */
 .section-1 {
     background-image: url("./Sources-HomePage/BG-HomePage-Desktop.png");
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
     background-position: center;
     background-size: cover;
-    border: 4px solid green;
     height: auto;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-evenly; */
-    /* justify-content: space-around; */
-    /* justify-content: space-between; */
-    /* align-items: center; */
-    /* margin-top: ; */
+    /* border: 4px solid green; */
 }
 
 .content {
-    border: 3px solid red;
     height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: row;
+    /* border: 3px solid red; */
 }
 
 .sec-1-kiri {
@@ -170,23 +166,17 @@ nav {
 
 .sec-1-kanan {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     width: 45%;
-    /* height: auto; */
-    /* min-height: 100%; */
-    /* height: 100%; */
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     
 }
 
 .sec-1-kanan img {
-    border: 1px solid orange;
     display: flex;
-    /* width: 100%; */
-    /* height: 100%; */
     max-width: 100%;
     max-height: 100%;
+    /* border: 1px solid orange; */
 }
 
 /* FOOTER */
@@ -216,16 +206,14 @@ footer{
     height: 100%;
     width: 100%;
     /* border: 1px solid peachpuff; */
-    /* display: flex; */
-    /* justify-content: center; */
 }
 
 .footer-bawah{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    /* border: 1px solid salmon; */
     line-height: 0%;
+    /* border: 1px solid salmon; */
 }
 
 .footer-text-1{
@@ -268,7 +256,6 @@ footer{
     /* HOMEPAGE */
     .section-1 {
         background-image: url("./Sources-HomePage/BG-HomePage-iPad.png");
-        /* flex-direction: row; */
     }
 
     .content{
@@ -326,13 +313,18 @@ footer{
     }
     
     .hamburger {
-        /* border: 1px solid greenyellow; */
         display: block;
-        /* border-radius: 8px; */
+        /* border: 1px solid greenyellow; */
     }
     
     .dropdown.open {
         display: flex;
+        position: absolute;
+        top: auto;
+    }
+
+    .navbar-open {
+        background-color: #171C2F;
     }
     
     /* HOMEPAGE */
