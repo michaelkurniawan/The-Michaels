@@ -131,6 +131,7 @@ nav {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    height: 100vh;
     /* border: 3px solid red; */
 }
 
@@ -224,21 +225,113 @@ nav {
 .moreButton {
     background-color: rgba(23, 28, 47, .8);
     border-radius: 20px;
-    width: 15%;
-    padding: .1% 1%;
+    /* width: 15%; */
+    /* padding: .1% 1%; */
+    width: calc(15% - 20px);
+    padding: calc(0.1% + 1px) calc(1% + 2px);
     display: flex;
     justify-content: center;
     text-decoration: none;
+    transition: all .3s ease;
     /* margin: 1%; */
     /* display: flex; */
 }
 
+.moreButton:hover {
+    /* color: #E4D583; */
+    transform: scale(1.1);
+}
+
 .button-text {
     font-family: Katibeh, serif;
-    color: #E4D583;
     font-size: 3vw;
-    margin: 0;
+    color: #E4D583;
+    /* color: white; */
+    /* width: 100%; */
+    /* text-align: center; */
+    /* margin: 0; */
     margin: 0 0 6.5%;
+}
+
+.section-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+    margin: 5% 0 7% 0;
+}
+
+.section-4-kanan {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 50vw;
+    margin: 0 3% 2% 1%;
+}
+
+.under-section-4 {
+    margin: 6% 0;
+    width: 100%;
+}
+
+.gambar-karakter {
+    width: 50vw;
+    /* margin-left: 1%; */
+    /* box-shadow: 0px -20px 0 red inset; */
+}
+
+.gambar-karakter img {
+    width: 100%;
+}
+
+.theGoldButton {
+    background-color: #E0CF76;
+    width: calc(25% - 20px);
+    padding: calc(0.1% + 1px) calc(1% + 2px);
+}
+
+.gold-button-text {
+    color: #171C2F;
+    font-size: 3vw;
+}
+
+.section-5 {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+}
+
+.section-5-atas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.under-section-5 {
+    width: 80%;
+    margin: 4.35% 0;
+    /* margin: 3% 0; */
+}
+
+.gambar-class {
+    width: 100%;
+}
+
+.gambar-class img {
+    width: 100%;
+}
+
+.button-5 {
+    width: calc(15% - 20px);
+    padding: calc(0.1% + 1px) calc(1% + 2px);
+}
+
+.gold-full {
+    color: #171C2F;
 }
 
 .end-of-page {
@@ -372,9 +465,48 @@ footer {
     }
 
     .about-desc {
-        width: 70%;
         font-size: 2vw;
         margin-bottom: 7vw;
+    }
+    
+    .moreButton {
+        width: 17%;
+        padding: 0;
+    }
+
+    .button-text {
+        font-size: 5vw;
+        margin: 0 0 7.5%;
+    }
+
+    .under-section-4 {
+        font-size: 2vw;
+        width: 100%;
+    }
+
+    .title-4 {
+        font-size: 12vw;
+    }
+    
+    .theGoldButton {
+        width: 40%;
+        padding: 0;
+    }
+
+    .gold-button-text {
+        font-size: 4vw;
+    }
+
+    .title-5 {
+        font-size: 17vw;
+    }
+
+    .under-section-5 {
+        font-size: 2vw;
+    }
+
+    .button-5 {
+        width: 17%;
     }
 
     .end-of-page img{
@@ -469,6 +601,36 @@ footer {
 
     .about-desc {
         font-size: 3.5vw;
+    }
+
+    .moreButton {
+        width: 20%;
+    }
+
+    .button-text {
+        font-size: 5vw;
+        margin: 0 0 7.5%;
+    }
+
+    .section-4 {
+        flex-direction: column-reverse;
+    }
+
+    .under-section-4 {
+        width: 100%;
+    }
+
+    .gambar-karakter {
+        width: 100%;
+    }
+    
+    .theGoldButton {
+        width: 40%;
+        padding: 0;
+    }
+
+    .button-5 {
+        width: 20%;
     }
 
     .end-of-page img {
