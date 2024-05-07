@@ -33,20 +33,17 @@ nav {
     display: flex;
     flex-direction: row;
     width: 100%;
-    /* border: 1px solid pink; */
 }
 
 .logo {
     width: 8%;
     display: flex;
     justify-content: center;
-    /* border: 1px solid red; */
 }
 
 .logo a img {
     height: 100%;
     width: 100%;
-    /* border: 1px solid white; */
 }
 
 .menu {
@@ -54,7 +51,6 @@ nav {
     justify-content: space-between;
     flex-direction: row;
     width: 90%;
-    /* border: 1px solid yellow; */
 }
 
 .menu-kiri, .menu-kanan {
@@ -99,7 +95,6 @@ nav {
     list-style: none;
     gap: 5vw;
     padding: 5%;
-    /* border: 1px solid goldenrod; */
 }
 
 .menu-dropdown {
@@ -107,7 +102,6 @@ nav {
     color: white;
     font-family: Katibeh, serif;
     text-decoration: none;
-    /* border: 1px solid orange; */
 }
 
 .menu-dropdown:hover {
@@ -124,7 +118,84 @@ nav {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    /* border: 1px solid slateblue; */
+    box-shadow: 0px -50px 50px #1D3421 inset;
+}
+
+.section-2{
+    background-image: url("./Sources-ClassPage/Class-Background-Desktop/Trickster-Class-BG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 50px 50px #1D3421 inset, 0px -50px 50px #5A362E inset;
+}
+
+.section-3{
+    background-image: url("./Sources-ClassPage/Class-Background-Desktop/Boulder-Class-BG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 50px 50px #5A362E inset, 0px -50px 50px #183045 inset;
+}
+
+.section-4{
+    background-image: url("./Sources-ClassPage/Class-Background-Desktop/Mariner-Class-BG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 50px 50px #183045 inset, 0px -50px 50px #5E2421 inset;
+}
+
+.section-5{
+    background-image: url("./Sources-ClassPage/Class-Background-Desktop/Brazier-Class-BG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 50px 50px #5E2421 inset, 0px -50px 50px #334856 inset;
+}
+
+.section-6{
+    background-image: url("./Sources-ClassPage/Class-Background-Desktop/Concealer-Class-BG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 50px 50px #334856 inset, 0px -50px 50px #B57A81 inset;
+}
+
+.section-7{
+    background-image: url("./Sources-ClassPage/Class-Background-Desktop/Seeker-Class-BG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 50px 50px #B57A81 inset, 0px -50px 50px #1D4D66 inset;
+}
+
+.section-8{
+    background-image: url("./Sources-ClassPage/Class-Background-Desktop/Raider-Class-BG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 50px 50px #1D4D66 inset, 0px -50px 50px #171C2F inset;
 }
 
 .content{
@@ -134,7 +205,6 @@ nav {
     flex-direction: column;
     text-align: center;
     height: 100vh;
-    /* border: 1px solid rgb(216, 112, 147); */
 }
 
 .title{
@@ -155,27 +225,15 @@ nav {
     text-shadow: 0px 4px 8px black;
 }
 
-.section-2{
-    background-image: url("./Sources-ClassPage/Class-Background-Desktop/Trickster-Class-BG.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border: 1px solid rgb(12, 49, 73);
-    height: auto;
-    display: flex;
-    flex-direction: column;
-}
 
 .class-name{
     font-family: Katibeh, serif;
     font-size: 8vw;
     text-align: center;
     text-shadow: 0px 4px 8px black;
-    color: rgb(184, 222, 134);
+    color: rgb(236, 255, 212);
     display: flex;
     justify-content: center;
-    /* margin: 0; */
-    border: 1px solid hotpink;
 }
 
 .class-name p{
@@ -185,21 +243,18 @@ nav {
 .class-content-left{
     display: flex;
     align-items: center;
-    border: 1px solid rgb(176, 66, 255);
     flex-direction: row;
+}
+
+.class-content-right{
+    display: flex;
+    align-items: center;
 }
 
 .class-banner{
     display: flex;
-    border: 1px solid red;
     justify-content: center;
-    /* width: 40%; */
     margin: 0% 0% 0% 5%;
-}
-
-.class-banner img{
-    width: 100%;
-    height: 100%;
 }
 
 .class-desc{
@@ -208,7 +263,6 @@ nav {
     width: 50%;
     margin: 5%;
     margin-left: 0;
-    border: 1px solid yellow;
 }
 
 .class-desc p{
@@ -224,6 +278,29 @@ nav {
     padding: 3%;
 }
 
+.end-of-page{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #171C2F;
+    border-bottom: 1px solid #FFFFFF;
+    margin: 2% 0% 0% 0%;
+    box-shadow: 0px 50px 50px #171C2F inset;
+}
+
+.top-text{
+    font-family: Katibeh, serif;
+    text-decoration: none;
+    color:rgb(222, 233, 207);
+    font-size: 3vw;
+    text-align: center;
+}
+
+.top-text p{
+    margin-top: 0;
+    padding-top: 0;
+}
+
 /* FOOTER */
 footer{
     background-color:#171C2F;
@@ -231,14 +308,12 @@ footer{
     flex-direction: column;
     width: 100%;
     z-index: 999;
-    /* border: 1px solid yellow; */
 }
 
 .footer-atas{
     display: flex;
     justify-content: center;
     width: 100%;
-    /* border: 1px solid hotpink; */
 }
 
 .footer-logo{
@@ -250,7 +325,6 @@ footer{
 .footer-atas img{
     height: 100%;
     width: 100%;
-    /* border: 1px solid peachpuff; */
 }
 
 .footer-bawah{
@@ -258,7 +332,6 @@ footer{
     justify-content: center;
     flex-direction: column;
     line-height: 0%;
-    /* border: 1px solid salmon; */
 }
 
 .footer-text-1{
@@ -303,6 +376,34 @@ footer{
     .section-1{
         background-image: url("./Sources-ClassPage/Class-Background-iPad/BG-Class-iPad.png");
     }
+    
+    .section-2{
+        background-image: url("./Sources-ClassPage/Class-Background-iPad/Trickster-iPad.png");
+    }
+
+    .section-3{
+        background-image: url("./Sources-ClassPage/Class-Background-iPad/Boulder-iPad.png");
+    }
+
+    .section-4{
+        background-image: url("./Sources-ClassPage/Class-Background-iPad/Mariner-iPad.png");
+    }
+
+    .section-5{
+        background-image: url("./Sources-ClassPage/Class-Background-iPad/Brazier-iPad.png");
+    }
+
+    .section-6{
+        background-image: url("./Sources-ClassPage/Class-Background-iPad/Concealer-iPad.png");
+    }
+
+    .section-7{
+        background-image: url("./Sources-ClassPage/Class-Background-iPad/Seeker-iPad.png");
+    }
+
+    .section-8{
+        background-image: url("./Sources-ClassPage/Class-Background-iPad/Raider-iPad.png");
+    }
 
     .title{
         font-size: 15vw;
@@ -311,6 +412,31 @@ footer{
     .under-title{
         font-size: 2.5vw;
         width: 85%;
+    }
+
+    .class-name{
+        font-size: 13vw;
+    }
+
+    .class-banner{
+        width: 50%;
+    }
+
+    .class-banner img{
+        width: 100%;
+    }
+
+    .class-desc p{
+        font-size: 2.5vw;
+        width: 90%;
+    }
+
+    .end-of-page img{
+        width: 70%;
+    }
+
+    .top-text{
+        font-size: 5vw;
     }
 
     /* FOOTER */
@@ -367,6 +493,34 @@ footer{
         background-image: url("./Sources-ClassPage/Class-Background-iPhone/BG-Class-iP.png");
     }
 
+    .section-2{
+        background-image: url("./Sources-ClassPage/Class-Background-iPhone/Trickster-iP.png");
+    }
+
+    .section-3{
+        background-image: url("./Sources-ClassPage/Class-Background-iPhone/Boulder-iP.png");
+    }
+
+    .section-4{
+        background-image: url("./Sources-ClassPage/Class-Background-iPhone/Mariner-iP.png");
+    }
+
+    .section-5{
+        background-image: url("./Sources-ClassPage/Class-Background-iPhone/Brazier-iP.png");
+    }
+
+    .section-6{
+        background-image: url("./Sources-ClassPage/Class-Background-iPhone/Concealer-iP.png");
+    }
+
+    .section-7{
+        background-image: url("./Sources-ClassPage/Class-Background-iPhone/Seeker-iP.png");
+    }
+
+    .section-8{
+        background-image: url("./Sources-ClassPage/Class-Background-iPhone/Raider-iP.png");
+    }
+
     .title{
         font-size: 18vw;
         line-height: 0.8;
@@ -376,6 +530,45 @@ footer{
     .under-title{
         font-size: 2.6vw;
         width: 90%;
+    }
+
+    .class-content-left{
+        flex-direction: column;
+    }
+
+    .class-content-right{
+        flex-direction: column-reverse;
+    }
+    
+    .class-name{
+        font-size: 16vw;
+    }
+
+    .class-banner{
+        width: 100%;
+        margin: 0;
+    }
+
+    .class-banner img{
+        width: 70%;
+    }
+
+    .class-desc{
+        width: 55%;
+        margin: 0;
+    }
+
+    .class-desc p{
+        font-size: 2.4vw;
+        width: 90%;     
+    }
+
+    .end-of-page img{
+        width: 70%;
+    }
+
+    .top-text{
+        font-size: 5vw;
     }
 
     /* FOOTER */

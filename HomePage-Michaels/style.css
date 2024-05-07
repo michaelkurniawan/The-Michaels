@@ -200,6 +200,27 @@ nav {
     line-height: 2;
     width: 70%;
     border: 1px solid cyan;
+.end-of-page{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #171C2F;
+    border-bottom: 1px solid #FFFFFF;
+    margin: 2% 0% 0% 0%;
+    box-shadow: 0px 50px 50px #171C2F inset;
+}
+
+.top-text{
+    font-family: Katibeh, serif;
+    text-decoration: none;
+    color:rgb(222, 233, 207);
+    font-size: 3vw;
+    text-align: center;
+}
+
+.top-text p{
+    margin-top: 0;
+    padding-top: 0;
 }
 
 /* FOOTER */
@@ -301,6 +322,7 @@ footer{
         justify-content: center;
     }
 
+<<<<<<< HEAD
     .about-title {
         font-size: 17vw;
         margin-top: 3vw;
@@ -310,6 +332,14 @@ footer{
         width: 70%;
         font-size: 3vw;
         margin-bottom: 7vw;
+=======
+    .end-of-page img{
+        width: 70%;
+    }
+
+    .top-text{
+        font-size: 5vw;
+>>>>>>> e80f788d0cf7be1550e227430419fce0391fc31b
     }
 
     /* FOOTER */
@@ -387,12 +417,21 @@ footer{
         justify-content: center;
     }
 
+<<<<<<< HEAD
     .about-title {
         font-size: 23vw;
     }
 
     .about-desc {
         font-size: 3.5vw;
+=======
+    .end-of-page img{
+        width: 70%;
+    }
+
+    .top-text{
+        font-size: 5vw;
+>>>>>>> e80f788d0cf7be1550e227430419fce0391fc31b
     }
 
     /* FOOTER */
