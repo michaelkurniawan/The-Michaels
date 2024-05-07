@@ -20,8 +20,6 @@ body::-webkit-scrollbar {
 body {
     margin: 0;
     padding: 0;
-    /* overflow: hidden; */
-    /* height: 200vh; */
     background-color: #171C2F;
 }
 
@@ -35,7 +33,7 @@ nav {
     display: flex;
     flex-direction: row;
     width: 100%;
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
     /* position: absolute; */
 }
 
@@ -54,10 +52,10 @@ nav {
 
 .menu {
     display: flex;
-    flex-direction: row;
-    /* border: 1px solid yellow; */
-    width: 90%;
     justify-content: space-between;
+    flex-direction: row;
+    width: 90%;
+    /* border: 1px solid yellow; */
 }
 
 .menu-kiri, .menu-kanan {
@@ -97,11 +95,12 @@ nav {
     flex-direction: column;
     align-items: center;
     top: 100%;
-    background: rgba(0, 0, 0, .2);
-    border: 1px solid goldenrod;
+    background-color: #171C2F;
     width: 100%;
     list-style: none;
     gap: 5vw;
+    padding: 5%;
+    /* border: 1px solid goldenrod; */
 }
 
 .menu-dropdown {
@@ -112,16 +111,21 @@ nav {
     /* border: 1px solid orange; */
 }
 
+.menu-dropdown:hover {
+    color: #A48D10;
+    transition: 0.3s ease
+}
+
 /* ISLE OF BERK */
 .section-1{
     background-image: url(./Sources-IsleOfBerk/IsleOfBerk-Desktop/1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border: 1px solid lightblue;
     height: 100vh;
     display: flex;
     flex-direction: column;
+    /* border: 1px solid lightblue; */
 }
 
 .content{
@@ -130,8 +134,8 @@ nav {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    border: 1px solid rgb(216, 112, 147);
     height: 100vh;
+    /* border: 1px solid rgb(216, 112, 147); */
 }
 
 .title{
@@ -161,8 +165,8 @@ footer{
     display: flex;
     flex-direction: column;
     width: 100%;
-    border: 1px solid yellow;
     z-index: 999;
+    /* border: 1px solid yellow; */
 }
 
 .footer-atas{
@@ -182,16 +186,14 @@ footer{
     height: 100%;
     width: 100%;
     /* border: 1px solid peachpuff; */
-    /* display: flex; */
-    /* justify-content: center; */
 }
 
 .footer-bawah{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    /* border: 1px solid salmon; */
     line-height: 0%;
+    /* border: 1px solid salmon; */
 }
 
 .footer-text-1{
@@ -282,13 +284,18 @@ footer{
     }
     
     .hamburger {
-        /* border: 1px solid greenyellow; */
         display: block;
-        /* border-radius: 8px; */
+        /* border: 1px solid greenyellow; */
     }
     
     .dropdown.open {
         display: flex;
+        position: absolute;
+        top: auto;
+    }
+
+    .navbar-open {
+        background-color: #171C2F;
     }
     
     /* ISLE OF BERK */
