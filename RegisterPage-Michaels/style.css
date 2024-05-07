@@ -1,0 +1,186 @@
+@font-face {
+    font-family: Katibeh;
+    src: url(../Sources-Fonts/Katibeh/Katibeh-Regular.ttf);
+}
+
+@font-face {
+    font-family: Rakkas;
+    src: url(../Sources-Fonts/Rakkas/Rakkas-Regular.ttf);
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    box-sizing: border-box; 
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    /* height: 200vh; */
+    background-color: #171C2F;
+}
+
+/* NAVBAR */
+header {
+    z-index: 999;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 1px solid pink;
+    /* position: absolute; */
+}
+
+.logo {
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.logo a img {
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid white; */
+}
+
+/* REGISTER */
+.section-1{
+    background-image: url(./Sources-RegisterPage/BG-Register-Desktop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid lightblue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* FOOTER */
+footer{
+    background-color:#171C2F;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid yellow;
+    z-index: 999;
+}
+
+.footer-atas{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* border: 1px solid hotpink; */
+}
+
+.footer-logo{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-atas img{
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid peachpuff; */
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.footer-bawah{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid salmon; */
+    line-height: 0%;
+}
+
+.footer-text-1{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Katibeh, serif;
+    font-size: 2vw;
+    text-decoration: none;
+}
+
+.footer-line{
+    color: #FFFFFF;
+    width: 75%;
+}
+
+.footer-text-2{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Katibeh, serif;
+    font-size: 1.5vw;
+    text-decoration: none;
+    margin-bottom: 3%;
+}
+
+/* MEDIA QUERY IPAD */
+@media screen and (min-width: 540px) and (max-width: 1024px) {
+    /* NAVBAR */
+    .logo {
+        width: 20%;
+    }
+
+    /* REGISTER */
+    .section-1{
+        background-image: url("./Sources-RegisterPage/BG-Register-iPad.png");
+    }
+
+    /* FOOTER */
+    .footer-logo{
+        width: 25%;
+    }
+
+    .footer-text-1{
+        font-size: 3vw;
+    }
+
+    .footer-line{
+        width: 80%;
+    }
+
+    .footer-text-2{
+        font-size: 2vw;
+    }
+}
+
+/* MEDIA QUERY HP */
+@media screen and (max-width: 539px){
+    /* NAVBAR */
+    .logo {
+        width: 25%;
+    }
+    
+    /* REGISTER */
+    .section-1{
+        background-image: url("./Sources-RegisterPage/BG-Register-iPhone.png");
+    }
+
+    /* FOOTER */
+    .footer-logo{
+        width: 30%;
+    }
+
+    .footer-text-1{
+        font-size: 3vw;
+    }
+
+    .footer-line{
+        width: 80%;
+    }
+
+    .footer-text-2{
+        font-size: 2vw;
+    }
+}
