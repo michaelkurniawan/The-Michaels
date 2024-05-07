@@ -179,6 +179,29 @@ nav {
     /* border: 1px solid orange; */
 }
 
+.section-2 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid orange;
+}
+
+.about-title {
+    font-size: 10.5vw;
+    margin-top: 5vw;
+    border: 1px solid red;
+}
+
+.about-desc {
+    font-size: 1.8vw;
+    letter-spacing: 0.2vw;
+    line-height: 2;
+    width: 70%;
+    border: 1px solid cyan;
+}
+
 /* FOOTER */
 footer{
     background-color:#171C2F;
@@ -269,13 +292,24 @@ footer{
 
     .under-title{
         font-size: 2.5vw;
-        width: 90%
+        width: 90%;
     }
 
     .sec-1-kanan{
         width: 100%;
         height: 60%;
         justify-content: center;
+    }
+
+    .about-title {
+        font-size: 17vw;
+        margin-top: 3vw;
+    }
+
+    .about-desc {
+        width: 70%;
+        font-size: 3vw;
+        margin-bottom: 7vw;
     }
 
     /* FOOTER */
@@ -351,6 +385,14 @@ footer{
         width: 100%;
         height: 50%;
         justify-content: center;
+    }
+
+    .about-title {
+        font-size: 23vw;
+    }
+
+    .about-desc {
+        font-size: 3.5vw;
     }
 
     /* FOOTER */
