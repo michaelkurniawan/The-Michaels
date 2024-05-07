@@ -200,6 +200,8 @@ nav {
     line-height: 2;
     width: 70%;
     border: 1px solid cyan;
+}
+
 .end-of-page{
     display: flex;
     justify-content: center;
@@ -322,7 +324,6 @@ footer{
         justify-content: center;
     }
 
-<<<<<<< HEAD
     .about-title {
         font-size: 17vw;
         margin-top: 3vw;
@@ -332,14 +333,12 @@ footer{
         width: 70%;
         font-size: 3vw;
         margin-bottom: 7vw;
-=======
     .end-of-page img{
         width: 70%;
     }
 
     .top-text{
         font-size: 5vw;
->>>>>>> e80f788d0cf7be1550e227430419fce0391fc31b
     }
 
     /* FOOTER */
@@ -417,21 +416,18 @@ footer{
         justify-content: center;
     }
 
-<<<<<<< HEAD
     .about-title {
         font-size: 23vw;
     }
 
     .about-desc {
         font-size: 3.5vw;
-=======
     .end-of-page img{
         width: 70%;
     }
 
     .top-text{
         font-size: 5vw;
->>>>>>> e80f788d0cf7be1550e227430419fce0391fc31b
     }
 
     /* FOOTER */
