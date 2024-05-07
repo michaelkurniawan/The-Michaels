@@ -120,7 +120,7 @@ nav {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: auto;
+    /* height: auto; */
     display: flex;
     flex-direction: column;
     /* border: 4px solid green; */
@@ -142,7 +142,7 @@ nav {
     width: 100%;
 }
 
-.title{
+.title {
     font-family: Katibeh, serif;
     font-size: 10vw;
     color: rgb(196, 183, 112);
@@ -152,7 +152,7 @@ nav {
     line-height: 0.8;
 }
 
-.under-title{
+.under-title {
     font-family: Rakkas, serif;
     font-size: 1.5vw;
     color: #FFFFFF;
@@ -198,11 +198,50 @@ nav {
     font-size: 1.8vw;
     letter-spacing: 0.2vw;
     line-height: 2;
-    width: 70%;
+    width: 70vw;
     border: 1px solid cyan;
 }
 
-.end-of-page{
+.section-3 {
+    height: 100vh;
+    background-image: url("./Sources-HomePage/HomePage-IsleofBerk-Desktop.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* height: auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.IOB-under-title {
+    font-size: 1.8vw;
+    margin: 3% 0;
+    width: 100%;
+}
+
+.moreButton {
+    background-color: rgba(23, 28, 47, .8);
+    border-radius: 20px;
+    width: 15%;
+    padding: .1% 1%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    /* margin: 1%; */
+    /* display: flex; */
+}
+
+.button-text {
+    font-family: Katibeh, serif;
+    color: #E4D583;
+    font-size: 3vw;
+    margin: 0;
+    margin: 0 0 6.5%;
+}
+
+.end-of-page {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -212,7 +251,7 @@ nav {
     box-shadow: 0px 50px 50px #171C2F inset;
 }
 
-.top-text{
+.top-text {
     font-family: Katibeh, serif;
     text-decoration: none;
     color:rgb(222, 233, 207);
@@ -220,13 +259,13 @@ nav {
     text-align: center;
 }
 
-.top-text p{
+.top-text p {
     margin-top: 0;
     padding-top: 0;
 }
 
 /* FOOTER */
-footer{
+footer {
     background-color:#171C2F;
     display: flex;
     flex-direction: column;
@@ -235,26 +274,26 @@ footer{
     z-index: 999;
 }
 
-.footer-atas{
+.footer-atas {
     display: flex;
     justify-content: center;
     width: 100%;
     /* border: 1px solid hotpink; */
 }
 
-.footer-logo{
+.footer-logo {
     width: 15%;
     display: flex;
     justify-content: center;
 }
 
-.footer-atas img{
+.footer-atas img {
     height: 100%;
     width: 100%;
     /* border: 1px solid peachpuff; */
 }
 
-.footer-bawah{
+.footer-bawah {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -262,7 +301,7 @@ footer{
     /* border: 1px solid salmon; */
 }
 
-.footer-text-1{
+.footer-text-1 {
     text-align: center;
     color: #FFFFFF;
     font-family: Katibeh, serif;
@@ -270,12 +309,12 @@ footer{
     text-decoration: none;
 }
 
-.footer-line{
+.footer-line {
     color: #FFFFFF;
     width: 75%;
 }
 
-.footer-text-2{
+.footer-text-2 {
     text-align: center;
     color: #FFFFFF;
     font-family: Katibeh, serif;
@@ -304,21 +343,21 @@ footer{
         background-image: url("./Sources-HomePage/BG-HomePage-iPad.png");
     }
 
-    .content{
+    .content {
         flex-direction: column;
         justify-content: center;
     }
 
-    .title{
+    .title {
         font-size: 15vw;
     }
 
-    .under-title{
+    .under-title {
         font-size: 2.5vw;
         width: 90%;
     }
 
-    .sec-1-kanan{
+    .sec-1-kanan {
         width: 100%;
         height: 60%;
         justify-content: center;
@@ -331,7 +370,7 @@ footer{
 
     .about-desc {
         width: 70%;
-        font-size: 3vw;
+        font-size: 2vw;
         margin-bottom: 7vw;
     }
 
@@ -344,19 +383,19 @@ footer{
     }
 
     /* FOOTER */
-    .footer-logo{
+    .footer-logo {
         width: 25%;
     }
 
-    .footer-text-1{
+    .footer-text-1 {
         font-size: 3vw;
     }
 
-    .footer-line{
+    .footer-line {
         width: 80%;
     }
 
-    .footer-text-2{
+    .footer-text-2 {
         font-size: 2vw;
     }
 }
@@ -393,26 +432,26 @@ footer{
     }
     
     /* HOMEPAGE */
-    .section-1{
+    .section-1 {
         background-image: url(./Sources-HomePage/BG-HomePage-iPhone.png);
     }
 
-    .content{
+    .content {
         flex-direction: column;
         justify-content: center;
         
     }
 
-    .title{
+    .title {
         font-size: 18vw;
     }
 
-    .under-title{
+    .under-title {
         font-size: 2.6vw;
         width: 65%
     }
 
-    .sec-1-kanan{
+    .sec-1-kanan {
         width: 100%;
         height: 50%;
         justify-content: center;
@@ -426,28 +465,28 @@ footer{
         font-size: 3.5vw;
     }
 
-    .end-of-page img{
+    .end-of-page img {
         width: 70%;
     }
 
-    .top-text{
+    .top-text {
         font-size: 5vw;
     }
 
     /* FOOTER */
-     .footer-logo{
+     .footer-logo {
         width: 30%;
     }
 
-    .footer-text-1{
+    .footer-text-1 {
         font-size: 3vw;
     }
 
-    .footer-line{
+    .footer-line {
         width: 80%;
     }
 
-    .footer-text-2{
+    .footer-text-2 {
         font-size: 2vw;
     }
 }
