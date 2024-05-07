@@ -240,13 +240,7 @@ nav {
     margin: 8% 100% 0% 100%;
 }
 
-.class-content-left{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-}
-
-.class-content-right{
+.class-content-left, .class-content-right{
     display: flex;
     align-items: center;
     flex-direction: row;
