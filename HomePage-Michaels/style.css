@@ -131,7 +131,7 @@ nav {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    height: 100vh;
+    /* height: 100vh; */
     /* border: 3px solid red; */
 }
 
@@ -186,13 +186,13 @@ nav {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
 }
 
 .about-title {
-    font-size: 10.5vw;
+    font-size: 10vw;
     margin-top: 5vw;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .about-desc {
@@ -200,7 +200,7 @@ nav {
     letter-spacing: 0.2vw;
     line-height: 2;
     width: 70vw;
-    border: 1px solid cyan;
+    /* border: 1px solid cyan; */
 }
 
 .section-3 {
@@ -258,8 +258,8 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
     margin: 5% 0 7% 0;
+    /* border: 1px solid red; */
 }
 
 .section-4-kanan {
@@ -312,7 +312,7 @@ nav {
 }
 
 .under-section-5 {
-    width: 80%;
+    width: 60%;
     margin: 4.35% 0;
     /* margin: 3% 0; */
 }
@@ -363,8 +363,8 @@ footer {
     display: flex;
     flex-direction: column;
     width: 100%;
-    border: 1px solid yellow;
     z-index: 999;
+    /* border: 1px solid yellow; */
 }
 
 .footer-atas {
@@ -460,7 +460,7 @@ footer {
     }
     
     .about-title {
-        font-size: 17vw;
+        font-size: 15vw;
         margin-top: 3vw;
     }
 
@@ -503,6 +503,7 @@ footer {
 
     .under-section-5 {
         font-size: 2vw;
+        width: 75%;
     }
 
     .button-5 {
@@ -596,11 +597,12 @@ footer {
     }
 
     .about-title {
-        font-size: 23vw;
+        font-size: 18vw;
     }
 
     .about-desc {
         font-size: 3.5vw;
+        width: 80%;
     }
 
     .moreButton {
@@ -631,6 +633,10 @@ footer {
 
     .button-5 {
         width: 20%;
+    }
+
+    .under-section-5 {
+        width: 80%;
     }
 
     .end-of-page img {
