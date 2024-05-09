@@ -199,7 +199,8 @@ nav {
     font-size: 1.8vw;
     letter-spacing: 0.2vw;
     line-height: 2;
-    width: 70vw;
+    width: 70%;
+    margin-bottom: 5%;
     /* border: 1px solid cyan; */
 }
 
@@ -466,7 +467,7 @@ footer {
 
     .about-desc {
         font-size: 2vw;
-        margin-bottom: 7vw;
+        width: 70%;
     }
     
     .moreButton {
@@ -602,7 +603,8 @@ footer {
 
     .about-desc {
         font-size: 3.5vw;
-        width: 80%;
+        margin-top: 8%;
+        width: 70%;
     }
 
     .moreButton {
