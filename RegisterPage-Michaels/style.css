@@ -21,7 +21,8 @@ body {
     margin: 0;
     padding: 0;
     /* overflow: hidden; */
-    /* height: 200vh; */
+    /* height: auto; */
+    /* max-height: auto; */
     background-color: #171C2F;
 }
 
@@ -58,20 +59,23 @@ nav {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border: 1px solid lightblue;
-    /* height: 100vh; */
+    border: 1px solid red;
     display: flex;
     flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
     font-family: Rakkas, serif;
 }
 
 .content {
-    border: 1px solid red;
-    /* height: auto; */
+    min-height: 100vh;
+    height: auto;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     padding: 5% 0;
+    /* width: 100%; */
+    /* border: 1px solid red; */
 }
 
 .form-container {
@@ -83,7 +87,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 50vw;
+    width: 50vw;
     box-shadow: 0 0 15px rgba(0, 0, 0, .2);
 }
 
@@ -120,11 +124,15 @@ nav {
     width: 100%;
     font-family: Rakkas, serif;
     font-size: 1.8vw;
-    opacity: 30%;
     border-radius: 7px;
     margin: 2% 0;
     padding: 1.5%;
+    border: .5px solid rgba(0, 0, 0, .7);
     /* height: 100%; */
+}
+
+.input-text::placeholder {
+    opacity: 40%;
 }
 
 .gender-container {
@@ -138,7 +146,7 @@ nav {
 .gender-title {
     margin: 0 2% 0 0;
     font-size: 1.8vw;
-    opacity: 30%;
+    opacity: 40%;
 }
 
 .gender-type {
@@ -146,14 +154,25 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 30%;
+    opacity: 40%;
     font-size: 1.5vw;
     border: 1.5px solid black;
     border-radius: 6px;
+    transition: .3s ease-in-out;
 }
 
 input[type="radio"] {
     display: none;
+}
+
+input[type="radio"]:checked + label.gender-type {
+    background-color: #171C2F;
+    color: white;
+    opacity: 100%;
+}
+
+.gender-type:hover {
+    transform: scale(1.05);
 }
 
 .button-regis {
@@ -164,6 +183,19 @@ input[type="radio"] {
     font-size: 2vw;
     padding: 1.5%;
     border-radius: 8px;
+    transition: .3s ease-in-out;
+}
+
+.error {
+    display: none;
+    justify-content: center;
+    color: red;
+    font-size: 1vw;
+    margin: 1.2% 0;
+}
+
+.button-regis:hover {
+    transform: scale(1.05);
 }
 
 /* FOOTER */
@@ -190,7 +222,7 @@ footer{
 }
 
 .footer-atas img{
-    /* height: 100%; */
+    height: 100%;
     width: 100%;
     /* border: 1px solid peachpuff; */
     /* display: flex; */
@@ -239,6 +271,31 @@ footer{
         background-image: url("./Sources-RegisterPage/BG-Register-iPad.png");
     }
 
+    .form-container {
+        width: 80vw;
+    }
+
+    .judul-form {
+        font-size: 6.2vw;
+    }
+
+    .under-text {
+        font-size: 2.7vw;
+        margin-top: 10%;
+    }
+
+    .input-text, .gender-title {
+        font-size: 2.7vw;
+    }
+
+    .gender-type {
+        font-size: 2.4vw;
+    }
+
+    .button-regis {
+        font-size: 2.9vw;
+    }
+
     /* FOOTER */
     .footer-logo{
         width: 25%;
@@ -267,6 +324,32 @@ footer{
     /* REGISTER */
     .section-1{
         background-image: url("./Sources-RegisterPage/BG-Register-iPhone.png");
+    }
+
+    .form-container {
+        width: 80%;
+    }
+
+    .judul-form {
+        font-size: 7vw;
+    }
+
+    .under-text {
+        font-size: 4vw;
+        margin-top: 12%;
+    }
+
+    .input-text, .gender-title {
+        font-size: 4vw;
+    }
+
+    .gender-type {
+        font-size: 3.8vw;
+        width: 23%;
+    }
+
+    .button-regis {
+        font-size: 4.3vw;
     }
 
     /* FOOTER */
