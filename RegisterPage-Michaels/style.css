@@ -36,8 +36,6 @@ nav {
     display: flex;
     flex-direction: row;
     width: 100%;
-    border: 1px solid pink;
-    /* position: absolute; */
 }
 
 .logo {
@@ -59,7 +57,7 @@ nav {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -212,7 +210,6 @@ footer{
     flex-direction: column;
     width: 100%;
     z-index: 999;
-    /* border: 1px solid yellow; */
 }
 
 .footer-atas{
