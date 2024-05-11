@@ -234,7 +234,7 @@ nav {
     display: flex;
     justify-content: center;
     text-decoration: none;
-    align-items: center;
+    /* align-items: center; */
     transition: all .3s ease;
     /* margin: 1%; */
     /* display: flex; */
@@ -246,7 +246,7 @@ nav {
 }
 
 .button-text {
-    align-items: center;
+    /* align-items: center; */
     font-family: Katibeh, serif;
     font-size: 3vw;
     color: #E4D583;
