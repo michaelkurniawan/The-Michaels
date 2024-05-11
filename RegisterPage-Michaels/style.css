@@ -190,7 +190,7 @@ input[type="radio"]:checked + label.gender-type {
     display: flex;
     justify-content: center;
     color: red;
-    font-size: 1vw;
+    font-size: 1.5vw;
     margin: 1.2% 0;
 }
 
@@ -296,6 +296,10 @@ footer{
         font-size: 2.9vw;
     }
 
+    .error {
+        font-size: 2.8vw;
+    }
+
     /* FOOTER */
     .footer-logo{
         width: 25%;
@@ -350,6 +354,10 @@ footer{
 
     .button-regis {
         font-size: 4.3vw;
+    }
+
+    .error {
+        font-size: 3.5vw;
     }
 
     /* FOOTER */
