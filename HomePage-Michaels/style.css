@@ -606,6 +606,7 @@ footer {
 
     .moreButton {
         width: 20%;
+        align-items: center;
     }
 
     .button-text {
