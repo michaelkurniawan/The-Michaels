@@ -133,7 +133,8 @@ nav {
     display: flex;
     flex-direction: column;
     background: linear-gradient(to bottom, #35382F, #626857, #969E85);
-    box-shadow: 0px -100px 50px #94A08E inset, 0px 50px 50px #221E1A inset;
+    box-shadow: 0px 10px 5px #221E1A inset, 0px -50px 5px #838b73 inset;
+    /* box-shadow: 0px 10px 5px #221E1A inset, 0px -50px 5px #5A6142 inset; */
     /* border: 1px solid salmon; */
 }
 
@@ -142,7 +143,8 @@ nav {
     display: flex;
     flex-direction: column;
     background: linear-gradient(to bottom, #969E85, #718889, #92C9CC);
-    box-shadow: 0px -100px 50px #9DBEBE inset, 0px 50px 50px #94A08E inset;
+    box-shadow: 0px 10px 5px #838b73 inset, 0px -50px 5px #82b0b3 inset;
+    /* box-shadow: 0px 10px 5px #5A6142 inset, 0px -50px 5px #568186 inset; */
     /* border: 1px solid salmon; */
 }
 
@@ -151,7 +153,7 @@ nav {
     display: flex;
     flex-direction: column;
     background: linear-gradient(to bottom, #92C9CC, #887B77, #705344);
-    box-shadow: 0px -100px 50px #765145 inset, 0px 50px 50px #9DBEBE inset;
+    box-shadow: 0px 10px 5px #82b0b3 inset, 0px -50px 5px #6b4f41 inset;
     /* border: 1px solid salmon; */
 }
 
@@ -160,7 +162,7 @@ nav {
     display: flex;
     flex-direction: column;
     background: linear-gradient(to bottom, #705344, #854E48, #712A22);
-    box-shadow: 0px -100px 50px #76342D inset, 0px 50px 50px #765145 inset;
+    box-shadow: 0px 10px 5px #6b4f41 inset, 0px -50px 5px #662b25 inset;
     /* border: 1px solid salmon; */
 }
 
@@ -169,7 +171,7 @@ nav {
     display: flex;
     flex-direction: column;
     background: linear-gradient(to bottom, #712A22, #4D6470, #1E4558);
-    box-shadow: 0px -100px 50px #375768 inset, 0px 50px 50px #76342D inset;
+    box-shadow: 0px 10px 5px #662b25 inset, 0px -50px 5px #1a3b4b inset;
     /* border: 1px solid salmon; */
 }
 
@@ -178,7 +180,7 @@ nav {
     display: flex;
     flex-direction: column;
     background: linear-gradient(to bottom, #1E4558, #6F808F, #062048);
-    box-shadow: 0px -100px 50px #062048 inset, 0px 50px 50px #375768 inset;
+    box-shadow: 0px 10px 5px #1a3b4b inset, 0px -50px 5px #0a2d61 inset;
     /* border: 1px solid salmon; */
 }
 
@@ -187,7 +189,7 @@ nav {
     display: flex;
     flex-direction: column;
     background: linear-gradient(to bottom, #062048, #7D6F6F, #50472B);
-    box-shadow: 0px -100px 50px #705440 inset, 0px 50px 50px #062048 inset;
+    box-shadow: 0px 10px 5px #0a2d61 inset, 0px -50px 5px #615634 inset;
     /* border: 1px solid salmon; */
 }
 
@@ -196,7 +198,7 @@ nav {
     display: flex;
     flex-direction: column;
     background: linear-gradient(to bottom, #50472B, #BF7570, #6C0E08);
-    box-shadow: 0px -100px 50px #802922 inset, 0px 50px 50px #705440 inset;
+    box-shadow: 0px 10px 5px #615634 inset, 0px -50px 5px #510c07 inset;
     /* border: 1px solid salmon; */
 }
 
@@ -204,8 +206,8 @@ nav {
     height: auto;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(to bottom, #6C0E08, #AC9689, #6D4832);
-    box-shadow: 0px -50px 50px #171C2F inset, 0px 50px 50px #802922 inset;
+    background: linear-gradient(to bottom, #6C0E08, #D1C19F, #94855A);
+    box-shadow: 0px 10px 5px #510c07 inset, 0px -50px 5px #847653 inset;
     /* border: 1px solid salmon; */
 }
 
@@ -393,6 +395,10 @@ footer{
         background-image: url("./Sources-CharacterPage/BG-CharacterPage-iPad.png");
     }
 
+    .chara-content{
+        flex-direction: column-reverse;
+    }
+
     .title{
         font-size: 15vw;
     }
@@ -401,6 +407,30 @@ footer{
         font-size: 2.5vw;
         width: 80%;
     }
+
+    .chara-name{
+        font-size: 13vw;
+    }
+
+    .chara-pic{
+        width: 70%;
+        margin: 10% 0% 0% 0%;
+    }
+
+    .chara-pic img{
+        width: 100%;
+    }
+
+    .chara-desc{
+        margin: 5% 0% 0% 0%;
+        width: 100%;
+    }
+
+    .chara-desc p{
+        font-size: 2.5vw;
+        width: 70%;
+        padding: 25px;
+    };
 
     .end-of-page img{
         width: 70%;
@@ -464,14 +494,43 @@ footer{
         background-image: url("./Sources-CharacterPage/BG-CharacterPage-iPhone.png");
     }
 
+    .chara-content{
+        flex-direction: column-reverse;
+    }
+
     .title{
         font-size: 18vw;
     }
 
     .under-title{
-        font-size: 2.6vw;
-        width: 90%;
+        font-size: 3.5vw;
+        width: 85%;
     }
+
+    .chara-name{
+        font-size: 16vw;
+        line-height: 0.8;
+    }
+
+    .chara-pic{
+        width: 90%;
+        margin: 10% 0% 0% 0%;
+    }
+
+    .chara-pic img{
+        width: 100%;
+    }
+
+    .chara-desc{
+        margin: 5% 0% 0% 0%;
+        width: 100%;
+    }
+
+    .chara-desc p{
+        font-size: 3.5vw;
+        width: 85%;
+        padding: 25px;
+    };
 
     .end-of-page img{
         width: 70%;

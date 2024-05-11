@@ -197,10 +197,10 @@ nav {
 }
 
 .about-desc {
-    font-size: 1.8vw;
+    font-size: 1.5vw;
     letter-spacing: 0.2vw;
     line-height: 2;
-    width: 70%;
+    width: 60%;
     margin-bottom: 5%;
     /* border: 1px solid cyan; */
 }
@@ -449,7 +449,7 @@ footer {
 
     .under-title {
         font-size: 2.5vw;
-        width: 90%;
+        width: 60%;
     }
 
     .sec-1-kanan {
@@ -467,8 +467,8 @@ footer {
     }
 
     .about-desc {
-        font-size: 2vw;
-        width: 70%;
+        font-size: 2.5vw;
+        width: 75%;
     }
     
     .moreButton {
@@ -496,16 +496,12 @@ footer {
     }
 
     .gold-button-text {
-        font-size: 4vw;
-    }
-
-    .title-5 {
-        font-size: 17vw;
+        font-size: 5vw;
     }
 
     .under-section-5 {
-        font-size: 2vw;
-        width: 75%;
+        font-size: 2.5vw;
+        width: 90%;
     }
 
     .button-5 {
@@ -585,8 +581,8 @@ footer {
     }
 
     .under-title {
-        font-size: 2.6vw;
-        width: 65%
+        font-size: 3.5vw;
+        width: 80%
     }
 
     .sec-1-kanan {
@@ -605,7 +601,7 @@ footer {
     .about-desc {
         font-size: 3.5vw;
         margin-top: 8%;
-        width: 70%;
+        width: 85%;
     }
 
     .moreButton {
