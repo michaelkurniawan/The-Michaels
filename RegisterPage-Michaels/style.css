@@ -186,12 +186,17 @@ input[type="radio"]:checked + label.gender-type {
     transition: .3s ease-in-out;
 }
 
-.error {
+.rusak {
+    visibility: hidden;
     display: flex;
     justify-content: center;
     color: red;
     font-size: 1.5vw;
     margin: 1.2% 0;
+}
+
+.rusak.triggered {
+    visibility: visible;
 }
 
 .button-regis:hover {
