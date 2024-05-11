@@ -246,6 +246,7 @@ nav {
 }
 
 .button-text {
+    align-items: center;
     font-family: Katibeh, serif;
     font-size: 3vw;
     color: #E4D583;
