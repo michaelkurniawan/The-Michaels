@@ -173,6 +173,7 @@ input[type="radio"]:checked + label.gender-type {
 
 .gender-type:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .button-regis {
@@ -201,6 +202,7 @@ input[type="radio"]:checked + label.gender-type {
 
 .button-regis:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 /* FOOTER */
@@ -301,8 +303,8 @@ footer{
         font-size: 2.9vw;
     }
 
-    .error {
-        font-size: 2.8vw;
+    .rusak.triggered {
+        font-size: 2.5vw;
     }
 
     /* FOOTER */
@@ -361,7 +363,7 @@ footer{
         font-size: 4.3vw;
     }
 
-    .error {
+    .rusak.triggered {
         font-size: 3.5vw;
     }
 
