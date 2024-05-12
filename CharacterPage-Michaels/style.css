@@ -133,7 +133,7 @@ nav {
     display: flex;
     flex-direction: column;
     background: linear-gradient(to bottom, #35382F, #626857, #969E85);
-    box-shadow: 0px 50px 5px #221E1A inset;
+    /* box-shadow: 0px 50px 5px #221E1A inset; */
     /* box-shadow: 0px 10px 5px #221E1A inset, 0px -50px 5px #5A6142 inset; */
     /* border: 1px solid salmon; */
 }
