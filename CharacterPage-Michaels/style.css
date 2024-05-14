@@ -83,10 +83,9 @@ nav {
 
 .hamburger {
     display: none;
-    font-size: 8vw;
+    width: 8vw;
     cursor: pointer;
     margin-right: 5%;
-    color: white;
 }
 
 .dropdown {
