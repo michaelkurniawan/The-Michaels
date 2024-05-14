@@ -2,8 +2,8 @@
 // - First Name: tidak boleh kosong, no digits & no symbols
 // - Last Name: maksimal satu kata
 // - Gender: harus pilih salah satu (not empty)
-// - Address: tidak boleh kosong,
-// - Gmail: ends with @gmail.com
+// - Address: Tidak boleh kosong,
+// - Gmail: Tidak boleh kosong, Harus diakhiri dengan @gmail.com, Tidak boleh hanya "@gmail.com", Tidak boleh mengandung spasi
 
 
 let form = document.getElementById("register-form");
@@ -32,6 +32,14 @@ form.addEventListener("submit", function(e){
     }else if(!checkName(lastName)){
         errorText.innerText = "Last Name Cannot Contain Number or Symbol";
         errorText.classList.add("triggered");
+    }else if(email === ""){
+        errorText.innerText = "E-mail Cannot be Empty!";
+        errorText.classList.add("triggered");
+    }else if(email === "@gmail.com"){
+        errorText.innerText = "E-mail Must Contain Username Before '@gmail.com'";
+        errorText.classList.add("triggered");
+    }else if(email.includes(" ")){
+        errorText.innerText = "E-mail Cannot Contain Spaces!";
     }else if(!email.endsWith("@gmail.com")){
         errorText.innerText = "E-mail Must Ends With '@gmail.com'!";
         errorText.classList.add("triggered");
