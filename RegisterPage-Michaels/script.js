@@ -2,9 +2,17 @@
 // - First Name: tidak boleh kosong, no digits & no symbols
 // - Last Name: maksimal satu kata
 // - Gender: harus pilih salah satu (not empty)
-// - Address: Tidak boleh kosong,
+// - Address: Tidak boleh kosong
 // - Gmail: Tidak boleh kosong, Harus diakhiri dengan @gmail.com, Tidak boleh hanya "@gmail.com", Tidak boleh mengandung spasi
 
+
+// Total Validasi Keseluruhan:
+// 1. Tidak boleh kosong
+// 2. No digits & no symbols
+// 3. Maksimal 1 kata
+// 4. Harus diakhir dengan @gmail.com
+// 5. Tidak boleh hanya "@gmail.com"
+// 6. Tidak boleh mengandung spasi
 
 let form = document.getElementById("register-form");
 
