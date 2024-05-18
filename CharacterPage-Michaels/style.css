@@ -33,20 +33,17 @@ nav {
     display: flex;
     flex-direction: row;
     width: 100%;
-    /* border: 1px solid pink; */
 }
 
 .logo {
     width: 8%;
     display: flex;
     justify-content: center;
-    /* border: 1px solid red; */
 }
 
 .logo a img {
     height: 100%;
     width: 100%;
-    /* border: 1px solid white; */
 }
 
 .menu {
@@ -54,7 +51,6 @@ nav {
     justify-content: space-between;
     flex-direction: row;
     width: 90%;
-    /* border: 1px solid yellow; */
 }
 
 .menu-kiri, .menu-kanan {
@@ -98,7 +94,6 @@ nav {
     list-style: none;
     gap: 5vw;
     padding: 5%;
-    /* border: 1px solid goldenrod; */
 }
 
 .menu-dropdown {
@@ -106,7 +101,6 @@ nav {
     color: white;
     font-family: Katibeh, serif;
     text-decoration: none;
-    /* border: 1px solid orange; */
 }
 
 .menu-dropdown:hover {
@@ -124,7 +118,6 @@ nav {
     display: flex;
     flex-direction: column;
     box-shadow: 0px -100px 50px #221E1A inset;
-    /* border: 1px solid lightblue; */
 }
 
 .section-2{
@@ -132,9 +125,6 @@ nav {
     display: flex;
     flex-direction: column;
     background: linear-gradient(to bottom, #35382F, #626857, #969E85);
-    /* box-shadow: 0px 50px 5px #221E1A inset; */
-    /* box-shadow: 0px 10px 5px #221E1A inset, 0px -50px 5px #5A6142 inset; */
-    /* border: 1px solid salmon; */
 }
 
 .section-3{
@@ -142,9 +132,6 @@ nav {
     display: flex;
     flex-direction: column;
     background: linear-gradient(to bottom, #969E85, #718889, #92C9CC);
-    /* box-shadow: 0px 50px 15px #848e74 inset; */
-    /* box-shadow: 0px 10px 5px #5A6142 inset, 0px -50px 5px #568186 inset; */
-    /* border: 1px solid salmon; */
 }
 
 .section-4{
@@ -152,8 +139,6 @@ nav {
     display: flex;
     flex-direction: column;
     background: linear-gradient(to bottom, #92C9CC, #887B77, #705344);
-    /* box-shadow: 0px 50px 15px #82b0b3 inset; */
-    /* border: 1px solid salmon; */
 }
 
 .section-5{
@@ -161,8 +146,6 @@ nav {
     display: flex;
     flex-direction: column;
     background: linear-gradient(to bottom, #705344, #854E48, #712A22);
-    /* box-shadow: 0px 50px 15px #6b4f41 inset; */
-    /* border: 1px solid salmon; */
 }
 
 .section-6{
@@ -170,8 +153,6 @@ nav {
     display: flex;
     flex-direction: column;
     background: linear-gradient(to bottom, #712A22, #4D6470, #1E4558);
-    /* box-shadow: 0px 50px 15px #662b25 inset; */
-    /* border: 1px solid salmon; */
 }
 
 .section-7{
@@ -179,8 +160,6 @@ nav {
     display: flex;
     flex-direction: column;
     background: linear-gradient(to bottom, #1E4558, #6F808F, #062048);
-    /* box-shadow: 0px 50px 15px #1a3b4b inset; */
-    /* border: 1px solid salmon; */
 }
 
 .section-8{
@@ -188,8 +167,6 @@ nav {
     display: flex;
     flex-direction: column;
     background: linear-gradient(to bottom, #062048, #7D6F6F, #50472B);
-    /* box-shadow: 0px 50px 15px #0a2d61 inset; */
-    /* border: 1px solid salmon; */
 }
 
 .section-9{
@@ -197,8 +174,6 @@ nav {
     display: flex;
     flex-direction: column;
     background: linear-gradient(to bottom, #50472B, #BF7570, #6C0E08);
-    /* box-shadow: 0px 50px 15px #615634 inset; */
-    /* border: 1px solid salmon; */
 }
 
 .section-10{
@@ -206,8 +181,6 @@ nav {
     display: flex;
     flex-direction: column;
     background: linear-gradient(to bottom, #6C0E08, #D1C19F, #94855A);
-    /* box-shadow: 0px 50px 15px #510c07 inset; */
-    /* border: 1px solid salmon; */
 }
 
 .content{
@@ -217,7 +190,6 @@ nav {
     flex-direction: column;
     text-align: center;
     height: 100vh;
-    /* border: 1px solid rgb(216, 112, 147); */
 }
 
 .title{
@@ -471,7 +443,6 @@ footer{
     
     .hamburger {
         display: block;
-        /* border: 1px solid greenyellow; */
     }
     
     .dropdown.open {

@@ -33,20 +33,17 @@ nav {
     display: flex;
     flex-direction: row;
     width: 100%;
-    /* border: 1px solid pink; */
 }
 
 .logo {
     width: 8%;
     display: flex;
     justify-content: center;
-    /* border: 1px solid red; */
 }
 
 .logo a img {
     height: 100%;
     width: 100%;
-    /* border: 1px solid white; */
 }
 
 .menu {
@@ -54,7 +51,6 @@ nav {
     justify-content: space-between;
     flex-direction: row;
     width: 90%;
-    /* border: 1px solid yellow; */
 }
 
 .menu-kiri, .menu-kanan {
@@ -97,7 +93,6 @@ nav {
     list-style: none;
     gap: 5vw;
     padding: 5%;
-    /* border: 1px solid goldenrod; */
 }
 
 .menu-dropdown {
@@ -105,7 +100,6 @@ nav {
     color: white;
     font-family: Katibeh, serif;
     text-decoration: none;
-    /* border: 1px solid orange; */
 }
 
 .menu-dropdown:hover {
@@ -119,10 +113,8 @@ nav {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* height: auto; */
     display: flex;
     flex-direction: column;
-    /* border: 4px solid green; */
     box-shadow: 0px -50px 50px #171C2F inset;
 }
 
@@ -132,8 +124,6 @@ nav {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    /* height: 100vh; */
-    /* border: 3px solid red; */
 }
 
 .sec-1-kiri {
@@ -170,30 +160,24 @@ nav {
     display: flex;
     align-items: center;
     width: 45%;
-    /* border: 1px solid orange; */
-    
 }
 
 .sec-1-kanan img {
     display: flex;
     max-width: 100%;
     max-height: 100%;
-    /* border: 1px solid orange; */
 }
 
 .section-2 {
-    /* height: 100vh; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    /* border: 1px solid orange; */
 }
 
 .about-title {
     font-size: 10vw;
     margin-top: 5vw;
-    /* border: 1px solid red; */
 }
 
 .about-desc {
@@ -202,7 +186,6 @@ nav {
     line-height: 2;
     width: 60%;
     margin-bottom: 5%;
-    /* border: 1px solid cyan; */
 }
 
 .section-3 {
@@ -211,7 +194,6 @@ nav {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* height: auto; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -228,20 +210,15 @@ nav {
 .moreButton {
     background-color: rgba(23, 28, 47, .8);
     border-radius: 20px;
-    /* width: 15%; */
-    /* padding: .1% 1%; */
     width: calc(15% - 20px);
     padding: calc(0.1% + 1px) calc(1% + 2px);
     display: flex;
     justify-content: center;
     text-decoration: none;
     transition: all .3s ease;
-    /* margin: 1%; */
-    /* display: flex; */
 }
 
 .moreButton:hover {
-    /* color: #E4D583; */
     transform: scale(1.1);
 }
 
@@ -249,10 +226,6 @@ nav {
     font-family: Katibeh, serif;
     font-size: 3vw;
     color: #E4D583;
-    /* color: white; */
-    /* width: 100%; */
-    /* text-align: center; */
-    /* margin: 0; */
     margin: 0 0 6.5%;
 }
 
@@ -262,13 +235,11 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: 5% 0 7% 0;
-    /* border: 1px solid red; */
 }
 
 .section-4-kanan {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     width: 50vw;
     margin: 0 3% 2% 1%;
@@ -281,8 +252,6 @@ nav {
 
 .gambar-karakter {
     width: 50vw;
-    /* margin-left: 1%; */
-    /* box-shadow: 0px -20px 0 red inset; */
 }
 
 .gambar-karakter img {
@@ -303,7 +272,6 @@ nav {
 .section-5 {
     display: flex;
     flex-direction: column;
-    /* width: 100%; */
 }
 
 .section-5-atas {
@@ -317,7 +285,6 @@ nav {
 .under-section-5 {
     width: 60%;
     margin: 4.35% 0;
-    /* margin: 3% 0; */
 }
 
 .gambar-class {
@@ -367,14 +334,12 @@ footer {
     flex-direction: column;
     width: 100%;
     z-index: 999;
-    /* border: 1px solid yellow; */
 }
 
 .footer-atas {
     display: flex;
     justify-content: center;
     width: 100%;
-    /* border: 1px solid hotpink; */
 }
 
 .footer-logo {
@@ -386,7 +351,6 @@ footer {
 .footer-atas img {
     height: 100%;
     width: 100%;
-    /* border: 1px solid peachpuff; */
 }
 
 .footer-bawah {
@@ -394,7 +358,6 @@ footer {
     justify-content: center;
     flex-direction: column;
     line-height: 0%;
-    /* border: 1px solid salmon; */
 }
 
 .footer-text-1 {
@@ -553,7 +516,6 @@ footer {
     
     .hamburger {
         display: block;
-        /* border: 1px solid greenyellow; */
     }
     
     .dropdown.open {

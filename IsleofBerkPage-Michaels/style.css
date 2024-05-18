@@ -33,21 +33,17 @@ nav {
     display: flex;
     flex-direction: row;
     width: 100%;
-    /* border: 1px solid pink; */
-    /* position: absolute; */
 }
 
 .logo {
     width: 8%;
     display: flex;
     justify-content: center;
-    /* border: 1px solid red; */
 }
 
 .logo a img {
     height: 100%;
     width: 100%;
-    /* border: 1px solid white; */
 }
 
 .menu {
@@ -55,7 +51,6 @@ nav {
     justify-content: space-between;
     flex-direction: row;
     width: 90%;
-    /* border: 1px solid yellow; */
 }
 
 .menu-kiri, .menu-kanan {
@@ -99,7 +94,6 @@ nav {
     list-style: none;
     gap: 5vw;
     padding: 5%;
-    /* border: 1px solid goldenrod; */
 }
 
 .menu-dropdown {
@@ -107,7 +101,6 @@ nav {
     color: white;
     font-family: Katibeh, serif;
     text-decoration: none;
-    /* border: 1px solid orange; */
 }
 
 .menu-dropdown:hover {
@@ -411,7 +404,6 @@ footer{
     
     .hamburger {
         display: block;
-        /* border: 1px solid greenyellow; */
     }
     
     .dropdown.open {
