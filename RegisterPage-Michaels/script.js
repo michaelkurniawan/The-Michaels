@@ -62,11 +62,12 @@ form.addEventListener("submit", function(e){
     }
 });
 
-function checkName(str){
-    return str.split(" ").every(word =>{
-        return str.split("").every(char =>{
-            let charCode = char.charCodeAt(0);
-            return (charCode >= 65 && charCode <= 90) || (charCode >= 97 && charCode <= 122);
-        });
-    })
+function checkName(str) {
+    let words = str.trim().split(" ");
+    return words.every(word => {
+      return word.split("").every(char => {
+        let charCode = char.charCodeAt(0);
+        return (charCode >= 65 && charCode <= 90) || (charCode >= 97 && charCode <= 122);
+      });
+    });
 }
